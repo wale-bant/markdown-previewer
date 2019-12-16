@@ -27,10 +27,12 @@ function App() {
     return marked(text, { renderer: renderer });
   };
   return (
-    <div className="App">
+    <div style={{ width: "80vw", margin: "0 auto" }}>
       <Header />
-      <Editor value={text} onChange={handleChange} />
-      <Preview value={text} setHTML={setInnerHTML()} />
+      <main className="ed-prev-box">
+        <Editor value={text} onChange={handleChange} />
+        <Preview value={text} setHTML={setInnerHTML()} />
+      </main>
       <Footer />
     </div>
   );
