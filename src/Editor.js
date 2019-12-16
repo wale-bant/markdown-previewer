@@ -7,7 +7,7 @@ const Editor = props => {
     padding: 10,
     borderRadius: 10,
     marginRight: 20,
-    width: 600
+    width: 350
   };
   return (
     <textarea
@@ -17,8 +17,8 @@ const Editor = props => {
       className="editor"
       value={props.value}
       type="text"
-      cols="10"
-      rows="5"
+      cols="3"
+      rows="9"
     />
   );
 };

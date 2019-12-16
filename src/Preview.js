@@ -1,4 +1,4 @@
-import React from "react"
+import React from "react";
 
 const Preview = props => {
   const style = {
@@ -12,7 +12,7 @@ const Preview = props => {
     <div
       id="preview"
       style={style}
-      dangerouslySetInnerHTML={{__html: props.setHTML}}
+      dangerouslySetInnerHTML={{ __html: props.setHTML }}
     />
   );
 };

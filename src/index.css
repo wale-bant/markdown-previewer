@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins&display=swap');
+
+body {
+	background-color: dodgerblue;
+	font-family: 'Poppins', 'sans-serif';
+}
+
+.title {
+	color: lightblue;
+	text-align: center;
+	text-decoration: underline;
+}
+
+.ed-prev-box {
+		display: flex;
+}
+
+@media(max-width: 500px) {
+	.ed-prev-box {
+		flex-direction: row;
+	}
+}
+
+.footer {
+	width: 100%;
+	color: lightblue;
+	text-align: center;
+	margin-top: 10px
+}
+
+.footer a {
+	color: khaki
+}
